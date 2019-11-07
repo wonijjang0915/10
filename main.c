@@ -18,7 +18,7 @@ int main(void){
 	
 	for(i=0;i<5;i++)
 	{
-	   printf("grade[%d] = %d\n", i, grade[i]);
+	   printf("grade[%d] = %d\n", i, *(ptr+i));
 	   total += *(ptr+i);
 }
     
